@@ -1,6 +1,5 @@
 # uso do match case
 
-antes: if/else =
 
 print("#############atendimento############")
 
@@ -10,22 +9,22 @@ categorias={"massas","bebidas","petiscos","doces","salgados","pizza","churrasco"
 
 pergunta=input("escolha umas das categorias acima")
 
-print=pergunta=="petiscos
+pergunta=input("petiscos")
 ("dias das massas,descontos toda sexta feira")
 
-print=pergunta=="doces"
+pergunta=input("doces")
 ("dias dos doces,descontos toda sexta feira")
 
-print=pergunta=="pizza"
+pergunta=input("pizza")
 ("rodizio,descontos toda sexta feira")
 
-print=pergunta=="churrasco"
+pergunta=input("churrasco")
 ("churrasco,descontos toda sexta feira")
 
-print=pergunta=="comida japonesa
-comida japonesa,descontos toda sexta feira")
+pergunta=input("comida japonesa")
+("comida japonesa,descontos toda sexta feira")
 
-print=pergunta=="massas"
+pergunta=input("massas")
 ("dias das massas,descontos toda sexta feira")
 
 match pergunta
